@@ -27,3 +27,6 @@ The Dataset is original,and the model is robust to both head and tails side of t
 ------------------
 
 
+## Contributors
+* Mansi Parashar
+* Kartik Narang
