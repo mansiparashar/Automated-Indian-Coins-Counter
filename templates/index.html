@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Coin Detector</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">Project Demo <span>for Image Processing</span></a></div>
+			</header>
+
+
+		<!-- Banner -->
+		<!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
+			<section id="banner" data-video="images/banner" >
+				<div class="inner">
+					<h1>Coin Classification Application</h1>
+					<p>A Flask Application backed by Artificial Intelligence<br />
+					for automatic classification of coins, using Image Processing.</p>
+					<a href="#one" class="button special scrolly">Let's Get Started</a>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div>
+						<div class="box">
+							<div class="image fit">
+								<img src="../static/images/1.jpg" alt="" />
+							</div>
+							<div class="content">
+								<header class="align-center">
+									<h2>Know our application</h2>
+									<p>How does this app work?</p>
+								
+								<hr />
+								<p> An image can be uploaded on the web app. This image, in the backend undergoes numerous Image Processing techniques are applied as pre processing. These include resizing, thresholding, object detection,histogram equivalence,HOG and more.</p>
+								<p>We use our trained CNN model to call the predict function on this processed image, and returns the classification on the front end.Flask is used as the backend, with HTML/CSS for a responsive front end application.</p>
+								<a href="{{ url_for('predict') }}" class="button special scrolly">Classifier</a>
+								</header>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			
+		
+	<section id="two" class="wrapper style3">
+				<div class="inner">
+					<div id="flexgrid">
+						<div>
+							<header>
+								<h3>Dataset</h3>
+							</header>
+							<p>Collected and collated original dataset of Indian coins in circulation</p>
+						</div>
+						<div>
+							<header>
+								<h3>Method</h3>
+							</header>
+							<p>Image Processing techniques along with deep learning. A computer Vision project.</p>
+						</div>
+						<div>
+							<header>
+								<h3>Result</h3>
+							</header>
+							<p>A web application which tells you the value of indian coins in an image.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+		<!-- Four -->
+			<section id="four" class="wrapper style3">
+				<div class="inner">
+
+					<header class="align-center">
+						<h2>Team Members</h2>
+						<pre>Mansi Parashar 18BCE1048       Kartik Narang  18BCE1199</pre>
+						<pre>Arpit Gupta    18BCE1031       Anand Bhalotia 18BCE1121</pre>
+						<pre>               Adarsh Sahu 18BCE1029                   </pre>
+					</header>
+
+				</div>
+			</section>
+
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/skel.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
